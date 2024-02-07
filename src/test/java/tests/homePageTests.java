@@ -56,9 +56,11 @@ public class homePageTests{
         sayfaGeriAlma();
 
 
-        homePage.aramaBoxMenu.sendKeys("Suphi");
+        homePage.aramaBoxMenu.sendKeys(ConfigReader.getProperty("aranacakKelime"));
         homePage.araTusu.click();
-        sayfaGeriAlma();
+        homePage.aramaBoxMenu.clear();
+        homePage.aramaBoxMenu.sendKeys(ConfigReader.getProperty("aranacakKelime2"));
+        homePage.araTusu.click();
 
 
         ReusableMethods.bekle(2);
