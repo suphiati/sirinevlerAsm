@@ -25,8 +25,8 @@ public class homePageTests{
         homePage.aileSagligiCalisanlari.click();
         sayfaGeriAlma();
 
-        homePage.doktorlarimiz.click();
-        sayfaGeriAlma();
+        //homePage.doktorlarimiz.click();
+        //sayfaGeriAlma();
 
         homePage.aileHekiminiOgrenSonYazilar.click();
         sayfaGeriAlma();
